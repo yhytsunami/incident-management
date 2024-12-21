@@ -1,5 +1,5 @@
 # Use a base image with Java 17, for example, the OpenJDK image
-FROM openjdk17-alpine
+FROM 1ms.run/khipu/openjdk17-alpine:latest
 
 WORKDIR /app
 
