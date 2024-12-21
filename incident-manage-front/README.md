@@ -48,3 +48,5 @@ export default tseslint.config({
   },
 })
 ```
+npm run dev 
+npm run build 打包 路径 ./dist
