@@ -48,5 +48,9 @@ export default tseslint.config({
   },
 })
 ```
-npm run dev 
-npm run build 打包 路径 ./dist
+-npm run dev 
+-npm run build 打包 路径 ./dist
+
+- 如构建中出现错误 ERROR: Expected identifier but found "import"
+- 回退esbuild的版本 npm i -D esbuild@0.24.0
+- https://github.com/evanw/esbuild/issues/4010
