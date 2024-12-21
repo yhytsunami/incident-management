@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM 1ms.run/library/nginx:latest
 
 COPY ./dist/ /usr/share/nginx/html/
 
